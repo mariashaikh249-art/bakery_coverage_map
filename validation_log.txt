@@ -1,0 +1,6 @@
+Dropped 2 rows with missing lat/lon.
+Dropped 5 rows with physically impossible lat/lon.
+Fixed 55 rows with swapped lat/lon.
+Dropped 26 rows still outside the Karachi bounding box after the swap fix.
+Dropped 13 rows that fell in the sea per the simplified coastline rule.
+Final clean dataset: 9244 points (from 9290 raw rows).
